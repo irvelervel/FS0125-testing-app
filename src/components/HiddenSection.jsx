@@ -15,6 +15,7 @@ const HiddenSection = function () {
     <Container>
       <Row className="justify-content-center mt-4">
         <Col xs={12} md={6} className="text-center">
+          <h1>COMPoNENTe CaRd</h1>
           <Button
             variant="success"
             onClick={() => {
@@ -29,7 +30,11 @@ const HiddenSection = function () {
         <Col xs={12} md={6} className="text-center">
           {show && (
             <Card>
-              <Card.Img variant="top" src="https://placebear.com/500/500" />
+              <Card.Img
+                variant="top"
+                alt="orfisso"
+                src="https://placebear.com/500/500"
+              />
               <Card.Body>
                 <Card.Title>Orso Fisso</Card.Title>
                 <Card.Text>Un orso di nome "Fisso"</Card.Text>
